@@ -7,7 +7,6 @@ mkdir -p $TOP/usr
 # download library
 cd $TOP/src
 curl -L https://www.imagemagick.org/download/ImageMagick.tar.gz | tar zx
-# curl -L https://github.com/ImageMagick/ImageMagick6/archive/refs/tags/6.9.12-90.tar.gz | tar zx
 
 # configure
 cd $(ls -d */ | head -n 1)
